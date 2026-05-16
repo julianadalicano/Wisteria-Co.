@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+          <title>Wisteria & Co.</title>
+          <link rel="stylesheet" href="style.css">
+      </head>
+  <body>
+  <header>
+    <div class="top-bar">
+        “The #1 Flower Shop That Makes Every Moment Special”
+    </div>
+    <div class="navbar">
+        <div class="logo">
+             Wisteria & Co.              
+            <span>flowers and more</span>
+        </div>
+        <div class="logo-nav">
+            <a href="index.html" class="no-underline">Home</a>
+            <a href="product.html" class="no-underline">Products</a>
+            <a href="cart.html" class="no-underline">Cart</a>
+            <a href="contact.html" class="no-underline">Contact</a>
+            <a href="account.html" class="no-underline">Account</a>
+        </div>
+    </div>
+  </header>
+<!-- AUTH WRAPPER -->
+<div class="shop-auth-wrapper">
+
+    <!-- LOGIN -->
+    <div class="shop-auth-card" id="shopLoginCard">
+        <h2>Login</h2>
+
+        <input type="email" id="shopLoginEmail" placeholder="Email">
+        <div class="password-box">
+    <input type="password" id="shopLoginPassword" placeholder="Password">
+
+    <span class="eye-icon"
+    onclick="toggleLoginPassword()">👁</span>
+</div>
+        <button onclick="shopLogin()">Login</button>
+
+        <p>No account?
+            <span onclick="showShopSignup()">Create account</span>
+        </p>
+    </div>
+
+    <!-- SIGNUP -->
+    <div class="shop-auth-card" id="shopSignupCard" style="display:none;">
+        <h2>Create Account</h2>
+
+        <input type="text" id="shopFullName" placeholder="Full Name">
+        <input type="email" id="shopEmail" placeholder="Email">
+        <input type="text" id="shopAddress" placeholder="Home Address">
+        <input type="tel" id="shopContact" placeholder="Contact Number">
+      <div class="password-box">
+        <input type="password" id="shopPassword" placeholder="Password">
+            <span class="eye-icon"
+               onclick="toggleSignupPassword()">👁</span>
+      </div>
+        <button onclick="shopSignup()">Register</button>
+
+        <p>Already have account?
+            <span onclick="showShopLogin()">Login</span>
+        </p>
+    </div>
+
+</div>
+
+<!-- HOME -->
+<div class="shop-home" id="shopHome" style="display:none;">
+    <h1>Welcome 👋</h1>
+    <p id="shopUserData"></p>
+    <button onclick="shopLogout()">Logout</button>
+</div>
+
+    <button onclick="openEditProfile()">Edit Profile</button>
+
+<!-- EDIT PROFILE MODAL -->
+<div class="shop-edit-box" id="shopEditBox" style="display:none;">
+    <div class="shop-edit-card">
+
+        <h2>Edit Profile</h2>
+
+        <input type="text" id="editName" placeholder="Full Name">
+        <input type="email" id="editEmail" placeholder="Email">
+        <input type="text" id="editAddress" placeholder="Home Address">
+        <input type="text" id="editContact" placeholder="Contact Number">
+      <div class="password-box">
+        <input type="password" id="editPassword" placeholder="Password">
+          <span class="eye-icon"
+            onclick="toggleEditPassword()">👁</span>
+</div>
+        <button onclick="saveProfile()">Save</button>
+        <button onclick="closeEditProfile()">Cancel</button>
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

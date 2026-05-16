@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+  <html lang="en">
+      <head>
+          <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="stylesheet" href="style.css">
+          <title>Wisteria & Co.</title>
+          <link rel="stylesheet" href="style.css">
+      </head>
+  <body>
+  <header>
+    <div class="top-bar">
+        “The #1 Flower Shop That Makes Every Moment Special”
+    </div>
+    <div class="navbar">
+        <div class="logo">
+             Wisteria & Co.              
+            <span>flowers and more</span>
+        </div>
+        <div class="logo-nav">
+            <a href="index.html" class="no-underline">Home</a>
+            <a href="product.html" class="no-underline">Products</a>
+            <a href="cart.html" class="no-underline">Cart</a>
+            <a href="contact.html" class="no-underline">Contact</a>
+            <a href="account.html" class="no-underline">Account</a>
+        </div>
+    </div>
+  </header>
+    <section>          
+        <input type="search" id="searchInput" placeholder="Search flowers...">
+    </section>  
+    <section>
+        <h1>FLOWER BOUQUET</h1>
+            <div class="product-scroll">
+                <div class="card"data-id="Rose">    <img src="images/image1.jpg">            
+                    <h3>Moulin Rouge Roses</h3>
+                  <div class="btn-container">
+                  <div class="price">₱999</div><br>
+                    <button onclick="addToCart
+                      ('Moulin Rouge Roses', 999, 'images/image1.jpg')">Add To Cart
+                    </button>       
+                  </div>
+                </div>                           
+                <div class="card"data-id="Tulip">
+                    <img src="images/image24.jpg">
+                    <h3>Opened Tulip</h3>
+                  <div class="btn-container">
+                  <div class="price">₱680</div><br>
+                    <button onclick="addToCart
+                       ('Opened Tulip', 680, 'images/image24.jpg')">Add To Cart
+                    </button>                           
+                 </div>         
+                </div>
+                <div class="card"data-id="Lavander">
+                    <img src="images/image23.jpg">         
+                      <h3>Lavander Whisper</h3>
+                  <div class="btn-container">
+                  <div class="price">₱599</div><br>
+                    <button onclick="addToCart
+                       ('Lavander Whisper', 480, 'images/image23.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card"data-id="Daisy">
+                    <img src="images/image25.jpg"> <h3>Garden of Daisy</h3>
+                  <div class="btn-container">
+                  <div class="price">₱380</div><br>
+                    <button onclick="addToCart
+                       ('Garden of Daisy', 380, 'images/image25.jpg')">Add To Cart
+                    </button>       
+                  </div>         
+                </div> 
+                <div class="card"data-id="Sunflower">
+                    <img src="images/image26.jpg">         
+                    <h3>Letters to the Sun</h3>
+                  <div class="btn-container">
+                  <div class="price">₱299</div><br>
+                    <button onclick="addToCart
+                       ('Letters to the Sun', 299, 'images/image26.jpg')">Add To Cart
+                    </button>                         
+                  </div>         
+                </div> 
+                <div class="card" data-id="Sunflower">
+                    <img src="images/image27.jpg">         
+                    <h3>Sunflower Haze</h3>
+                  <div class="btn-container">
+                  <div class="price">₱999</div><br>
+                    <button onclick="addToCart
+                       ('Sunflower Haze', 480, 'images/image27.jpg')">Add To Cart
+                    </button>                           
+                  </div>         
+                </div> 
+                <div class="card"data-id="Tulip">
+                    <img src="images/image28.jpg">         
+                    <h3>Tulip Bouquet</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,999</div><br>
+                    <button onclick="addToCart
+                       ('Tulip Bouquet', 1999, 'images/image28.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card" data-id="Tulip">
+                    <img src="images/image30.jpg">         
+                    <h3>Velvet Tulip</h3>
+                  <div class="btn-container">
+                  <div class="price">₱250</div><br>
+                    <button onclick="addToCart
+                       ('Velvet Tulip', 250, 'images/image30.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card" data-id="Sunflower">
+                    <img src="images/image38.jpg">         
+                    <h3>Golden Hour</h3>
+                  <div class="btn-container">
+                  <div class="price">₱250</div><br>
+                    <button onclick="addToCart
+                       ('Golden Hour', 250, 'images/image38.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card" data-id="Daisy">
+                    <img src="images/image41.jpg">         
+                    <h3>Morning Meadow</h3>
+                  <div class="btn-container">
+                  <div class="price">₱380</div><br>
+                    <button onclick="addToCart
+                       ('Morning Meadow', 380, 'images/image41.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image51.jpg">
+                    <h3>For</h3>
+                  <div class="btn-container">
+                  <div class="price">₱500</div><br>
+                    <button onclick="addToCart
+                       ('Forever Love', 500, 'images/image51.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image57.jpg">
+                    <h3>Forever Love</h3>
+                  <div class="btn-container">
+                  <div class="price">₱499</div><br>
+                    <button onclick="addToCart
+                       ('Forever Love', 499, 'images/image57.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image60.jpg">
+                    <h3>Forever Love</h3>
+                  <div class="btn-container">
+                  <div class="price">₱599</div><br>
+                    <button onclick="addToCart
+                       ('Forever Love', 599, 'images/image60.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>
+        <h1>GIFT BUNDLE</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image8.jpg">
+                    <h3>Midnight Cigar Box</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,999</div><br>
+                    <button onclick="addToCart
+                       ('Midnight Cigar Box', 1999, 'images/image8.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image15.jpg">
+                    <h3>Blush & Bows Case</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,999</div><br>
+                    <button onclick="addToCart
+                       ('Blush & Bows Case', 1999, 'images/image15.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image13.jpg">         
+                    <h3>Parfumier Set </h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,800</div><br>
+                    <button onclick="addToCart
+                       ('Parfumier Set', 1800, 'images/image13.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image20.jpg">
+                    <h3>Heirloom Keepsake</h3>
+                  <div class="btn-container">
+                  <div class="price">₱299</div><br>
+                    <button onclick="addToCart
+                       ('Heirloom Keepsake', 299, 'images/image20.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image22.jpg">
+                    <h3>Vanity Bouquet</h3>
+                  <div class="btn-container">
+                  <div class="price">₱999</div><br>
+                    <button onclick="addToCart
+                       ('Vanity Bouquet', 999, 'images/image22.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image19.jpg">
+                    <h3>Beauty of Love</h3>
+                  <div class="btn-container">
+                  <div class="price">₱299</div><br>
+                    <button onclick="addToCart
+                       ('Beauty of Love', 299, 'images/image19.jpg')">Add To Cart
+                    </button>
+                </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image18.jpg">
+                    <h3>Plumeria Sweetheart</h3>
+                  <div class="btn-container">
+                  <div class="price">₱150</div><br>
+                    <button onclick="addToCart
+                       ('Plumeria Sweetheart', 150, 'images/image18.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image32.jpg">         
+                    <h3>Golden Hour Basket</h3>
+                  <div class="btn-container">
+                  <div class="price">₱3,000</div><br>
+                    <button onclick="addToCart
+                       ('Golden Hour Basket', 3000, 'images/image32.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image37.jpg">         
+                    <h3>Timeless Blush</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,000</div><br>
+                    <button onclick="addToCart
+                       ('Timeless Blush', 1000, 'images/image37.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>                
+        <h1>DRIED AND PRESERVED FLOWERS</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image3.jpg">
+                    <h3>Memory Dome</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Memory Dome', 480, 'images/image3.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image34.jpg">
+                    <h3>Botanical Booth</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Botanical Booth', 480, 'images/image34.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image35.jpg">         
+                    <h3>Apothecary Blooms</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Apothecary Blooms', 480, 'images/image35.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>             
+                <div class="card">
+                    <img src="images/image36.jpg">         
+                    <h3>Wildflower Archive</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Wildflower Archive', 480, 'images/image36.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image40.jpg">         
+                    <h3>August, Framed</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('August, Framed', 480, 'images/image40.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image43.jpg">         
+                    <h3>Curio Stem</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Curio stem', 480, 'images/image43.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image48.jpg">         
+                    <h3>The Wedding Afterglow</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('The Wedding afterglow', 480, 'images/image48.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image49.jpg">         
+                    <h3>Chapters of Us</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Chapters of Us', 480, 'images/image49.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>    
+        <h1>SUOVENIRS</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image4.jpg">
+                    <h3>Message in a Bottle</h3>
+                  <div class="btn-container">
+                  <div class="price">₱30 each</div><br>
+                    <button onclick="addToCart
+                       ('Message in a Bottle', 30, 'images/image4.jpg')">Add To Cart
+                    </button>
+                   </div>         
+                </div>           
+                <div class="card">
+                    <img src="images/image12.jpg">         
+                    <h3>Pressed Memory</h3>
+                  <div class="btn-container">
+                  <div class="price">₱39 each</div><br>
+                    <button onclick="addToCart
+                       ('Pressed Memory', 39, 'images/image23.jpg')">Add To Cart
+                    </button>
+                  </div>     
+                </div>    
+                <div class="card">
+                    <img src="images/image17.jpg">
+                    <h3>Sage & Seedling Tokens</h3>
+                  <div class="btn-container">
+                  <div class="price">₱50 each</div><br>
+                    <button onclick="addToCart
+                       ('Sage & Seedling Tokens', 50, 'images/image17.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+                <div class="card">
+                    <img src="images/image31.jpg">         
+                    <h3>Love Basket</h3>
+                  <div class="btn-container">
+                  <div class="price">₱50 each</div><br>
+                    <button onclick="addToCart
+                       ('Love Baskeg', 50, 'images/image31.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image42.jpg">         
+                    <h3>Touch of the Memories</h3>
+                  <div class="btn-container">
+                  <div class="price">₱50 each</div><br>
+                    <button onclick="addToCart
+                       ('Touch of the Memories', 50, 'images/image42.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image45.jpg">         
+                    <h3>Keepsake Vials</h3>
+                  <div class="btn-container">
+                  <div class="price">₱199 </div><br>
+                    <button onclick="addToCart
+                       ('Keepsake Vials', 199, 'images/image45.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>        
+        <h1>WEDDING BOUQUET</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image5.jpg">
+                    <h3>Autumn Parlour</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Autumn Parlour', 480, 'images/image5.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image44.jpg">
+                    <h3>Unconditional Love</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Unconditional Love', 480, 'images/image44.jpg')">Add To Cart
+                    </button>
+                 </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image58.jpg">         
+                    <h3>Classic Rose Bouquet</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Classic Rose Bouquet', 480, 'images/image58.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>      
+                <div class="card">
+                    <img src="images/image39.jpg">         
+                    <h3>Blush Cloud</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Blush Cloud', 480, 'images/image39.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image47.jpg">         
+                    <h3>Forever After</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Forever After', 480, 'images/image47.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image55.jpg">
+                    <h3>Freshes Bouquet</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Freshes Bouquet', 480, 'images/image55.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image53.jpg">
+                    <h3>Premium Yellowish</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Premium Yellowish', 480, 'images/image53.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>
+        <h1>FUNERAL FLOWER STANDEE</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image6.jpg">
+                    <h3>The Garden</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('The Garden', 480, 'images/image6.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image9.jpg">
+                    <h3>Forever Love</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Forever Love', 480, 'images/image9.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image14.jpg">         
+                    <h3>Conservatory Wreath</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Estate Conservatory Wreath', 480, 'images/image14.jpg')">Add To Cart
+                    </button>        
+                  </div>         
+                </div>   
+                <div class="card">
+                    <img src="images/image50.jpg">
+                    <h3>Premium Love Flowers</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Premium Love Flowers', 480, 'images/image50.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image52.jpg">
+                    <h3>Premium Rose Stand</h3>
+                  <div class="btn-container">
+                    <div class="price">₱480</div><br>
+                      <button onclick="addToCart
+                       ('Premium Rose Stand', 480, 'images/image52.jpg')">Add To Cart
+                      </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image54.jpg">
+                    <h3>Memorial Flower</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Memorial Flower', 480, 'images/image54.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image56.jpg">
+                    <h3>Elegance standee</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Forever Love', 480, 'images/image56.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image59.jpg">
+                    <h3>Classic White Standee</h3>
+                  <div class="btn-container">
+                  <div class="price">₱480</div><br>
+                    <button onclick="addToCart
+                       ('Classic White Standee', 1999, 'images/image59.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+            </div>
+       <h1>INAUGURAL FLOWER STANDEE</h1>
+            <div class="product-scroll">
+                <div class="card">
+                    <img src="images/image7.jpg">
+                    <h3>Reflections of Autumn</h3>
+                  <div class="btn-container">
+                  <div class="price">₱2,500</div><br>
+                    <button onclick="addToCart
+                            ('Reflection of Autumn', 2500, 'images/image7.jpg')">Add To Cart
+                     </button>          
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image11.jpg">
+                    <h3>World Welcome</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,999</div><br>
+                    <button onclick="addToCart
+                            ('World Welcome', 1999, 'images/image11.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div>
+                <div class="card">
+                    <img src="images/image10.jpg">         
+                    <h3>Unstructured Blooms</h3>
+                  <div class="btn-container">
+                  <div class="price">₱1,999</div><br>
+                    <button onclick="addToCart
+                            ('Unstructured Blooms', 1999, 'images/image10.jpg')">Add To Cart
+                    </button>
+                  </div>         
+                </div> 
+            </div>
+      <footer>
+        <div class="footer-bottom">
+          <p>© 2026 Wisteria & Co. | All Rights Reserved</p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+  </body>
+  </html>       
+          
+          
+          
+          
+          
+          
+          
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+          
